@@ -318,7 +318,7 @@ spec:
       serviceAccountName: bookinfo-productpage
       containers:
       - name: productpage
-        image: 192.168.219.60/k3s/bookinfo-productpage-v1:1.18
+        image: 192.168.219.60/k3s/bookinfo-productpage-v1:1.19
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9080
