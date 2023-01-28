@@ -330,6 +330,8 @@ spec:
       volumes:
       - name: tmp
         emptyDir: {}
+      imagePullSecrets:
+      - name: regcred
 ---
 ##################################################################################################
 # destination-rule
